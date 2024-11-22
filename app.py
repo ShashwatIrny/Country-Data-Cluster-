@@ -40,7 +40,7 @@ def main():
 
     input_list=[[ch_mort,exp,hel,imp,inc,inf,life_exp,fer,gdp]]
 
-    st.button('predict'):
+    if st.button('predict'):
         response=prediction(input_list)
         st.success(response)
 
